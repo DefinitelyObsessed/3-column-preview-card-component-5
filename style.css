@@ -1,0 +1,96 @@
+
+
+/* Parent Block */
+.parent-block {
+  position: absolute;
+  top: 18%;
+  left: 23%;
+}
+
+img, h1 {
+  padding-bottom: 1.5rem;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  color:  hsl(0, 0%, 95%);
+}
+
+p, button {
+  font-family: "Lexend Deca",sans-serif ;
+  font-weight: 400;
+}
+
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 5rem ;
+  font-size: 15px ;
+   line-height: 1.8;
+}
+
+button {
+  background-color:  hsl(0, 0%, 95%);
+  width: 8.5rem;
+  padding: 0.7rem;
+  border-style: none;
+  border-radius: 25px;
+}
+
+.Block {
+  width: 18.5rem;
+  height: 31.5rem;
+  padding: 2.5rem;
+}
+
+
+/* Orange Block */
+.orange-block {
+background-color: hsl(31, 77%, 52%);
+}
+
+.orange-button {
+  color: hsl(31, 77%, 52%);
+}
+
+
+/* Sea Green Block */
+.sea-green-block {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.sea-green-button {
+  color: hsl(184, 100%, 22%);
+}
+
+
+/* Deep Green Block */
+.deep-green-block {
+  background-color:  hsl(179, 100%, 13%);
+}
+
+.deep-green-button {
+  color: hsl(179, 100%, 13%);
+}
+
+
+/* Hover Section */
+
+
+button:hover {
+  border-color:  hsl(0, 0%, 95%);
+  border-style: solid;
+  color:  hsl(0, 0%, 95%);
+}
+
+.orange-button:hover{
+background-color: hsl(31, 77%, 52%);
+}
+
+.sea-green-button:hover{
+  background-color: hsl(184, 100%, 22%);
+}
+
+.deep-green-button:hover{
+  background-color: hsl(179, 100%, 13%);
+}
