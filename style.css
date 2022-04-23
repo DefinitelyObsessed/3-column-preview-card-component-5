@@ -15,6 +15,7 @@ h1 {
   font-family: "Big Shoulders Display", sans-serif;
   font-weight: 700;
   color:  hsl(0, 0%, 95%);
+  text-transform: uppercase;
 }
 
 p, button {
@@ -47,6 +48,7 @@ button {
 /* Orange Block */
 .orange-block {
 background-color: hsl(31, 77%, 52%);
+border-radius: 10px 0 0 10px;
 }
 
 .orange-button {
@@ -67,6 +69,7 @@ background-color: hsl(31, 77%, 52%);
 /* Deep Green Block */
 .deep-green-block {
   background-color:  hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
 }
 
 .deep-green-button {
